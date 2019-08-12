@@ -1,24 +1,70 @@
 {
-  "posts": [
+  "employees": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Renee",
+      "departmentId": 1,
+      "computerId": 3
     },
     {
       "id": 2,
-      "title": "json-server",
-      "author": "typicode"
+      "name": "Ann",
+      "departmentId": 3,
+      "computerId": 5
+    },
+    {
+      "id": 3,
+      "name": "Courtney",
+      "departmentId": 2,
+      "computerId": 2
+    },
+    {
+      "id": 4,
+      "name": "Erica",
+      "departmentId": 1,
+      "computerId": 4
+    },
+    {
+      "id": 5,
+      "name": "Alex",
+      "departmentId": 2,
+      "computerId": 1
     }
   ],
-  "comments": [
+  "departments": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "departmentName": "Community Impact"
+    },
+    {
+      "id": 2,
+      "departmentName": "Fundraising"
+    },
+    {
+      "id": 3,
+      "departmentName": "Finance"
     }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "computers": [
+    {
+      "id": 1,
+      "computerSerialNumber": "HS-949696"
+    },
+    {
+      "id": 2,
+      "computerSerialNumber": "HS-374754"
+    },
+    {
+      "id": 3,
+      "computerSerialNumber": "HD-438957"
+    },
+    {
+      "id": 4,
+      "computerSerialNumber": "HT-474858"
+    },
+    {
+      "id": 5,
+      "computerSerialNumber": "HS-322274"
+    }
+  ]
 }
